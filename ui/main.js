@@ -11,5 +11,6 @@ button.onclick=function(){
             }
         }
         };
-	
+        request.span('GET','http://jacobroy.imad.hasura-app.io/counter',true);
+        request.send(null);
 };
